@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 7, 2018, 2:19:43 PM
+    Author     : DELL
+*/
+
+*{margin:0 auto;padding:0}
+body{font-family:Arial; height: 100%;background: #5F5F5F}
+
+.toolbar{height:60px;width:100%;background:#336b87;overflow:hidden; display:block;position:fixed; 
+        box-shadow:5px 5px 5px 5px  #576}
+.toolbar img{height:40px; width:150px; margin-top:10px;margin-left:50px}
+.searchform{float: right;padding:15px;}	
+.searchform input{border:1px solid #ddd;padding:6px;font-size: 15px;float: left}	
+
+.pagebody{margin-top:0px;
+         width:100%;
+         height: 100%;
+         margin:0px auto;
+         display: block;
+         overflow: hidden
+}
+.sideoption{float: left;
+           margin-top:60px;
+          
+           width:30%;
+           height:100%;
+           background:#5F5F5F;
+           overflow: hidden;
+           display: block;
+           
+}
+
+.option1{width:80%;height:30px; margin-top:20%;margin-bottom:30px;margin-left:10%;margin-right:10%;}
+.option2{width:80%;height:30px; margin-bottom:30px;margin-left:10%;margin-right:10%}
+.option3{width:80%;height:30px;margin-bottom:30px;margin-left:10%;margin-right:10%}
+.option4{width:80%;height:30px; margin-bottom:30px;margin-left:10%;margin-right:10%}
+.option5{width:80%;height:30px; margin-bottom:30px;margin-left:10%;margin-right:10%}
+
+a.btn{
+    float: right;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 15px 0px;
+    background: #5F5F5F;
+    color: cadetblue;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 10px
+}
+a.btn:hover{
+    background: slategrey;
+    color: #fff
+}
+.loginbtn{
+    float: right !important;
+    margin-right: 20px
+}
+
+.searchbtn{
+    cursor:pointer;
+    font-size:16px;
+    background: #00adee;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: inherit;
+    border-radius: 5px;
+    font-family: cursive
+
+}
+select{
+    border-radius: 5px;
+    font-family: cursive
+
+}
+select:hover{
+    background: #ddd
+}
+.modeltablemain{
+    padding: 10px;
+    width: 90%;
+    height: 80px;
+    background: #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px activeborder;
+       
+}
+.modeltablemain a{
+    text-decoration: none;
+    color: brown
+}
+.modeltablemain:hover{
+    background: #fff;
+        box-shadow: #535333
+}
+
+
+
+.modelimage{
+    float: left;
+    width: 50px;
+    height: 80px;
+    display: block;
+    overflow: hidden;
+    margin-left: 50px
+
+
+}
+.modelimage img{
+    width: 50px;
+    height: 80px
+}
+.modelinfo{
+    float: inside;
+    display: block;
+    overflow: hidden;
+    
+    margin-left: 50px
+}
+.modelinfo label{
+    color: #00adee
+}
+.modelinfo label a:hover{
+    color: darkblue;
+    text-decoration: underline
+}
+
+.searchbtn:hover{
+    background: blueviolet
+}
+.maincontent{width:40%;
+             float: left;
+             padding-left:1%;
+             padding-top: 70px;
+             overflow:hidden;
+             display: block
+}
+.rightsidebar{
+    float: left;
+    height: 100%;
+    width: 27%;
+    margin-left: 1%;
+    padding-left: 2px;
+    margin-top:60px;
+    
+    overflow: hidden;
+    display: block
+}
+a{
+    text-decoration: none;
+}
+.footer{width:80%;height:50px;background:#535333;text-align: center; float: left;}
+
+.footer p{padding: 17px 0px}
